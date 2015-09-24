@@ -1,0 +1,798 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0057E8951BAD272400DBB4D6 /* InputEntrySearch.png in Resources */ = {isa = PBXBuildFile; fileRef = 0057E8941BAD272400DBB4D6 /* InputEntrySearch.png */; };
+		0057E8981BAD558800DBB4D6 /* PTTrackingNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0057E8971BAD558800DBB4D6 /* PTTrackingNode.swift */; };
+		0057E89A1BAD563A00DBB4D6 /* PTModelBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0057E8991BAD563A00DBB4D6 /* PTModelBase.swift */; };
+		0081A1791BACA8DB00E931F3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0081A1781BACA8DB00E931F3 /* MapKit.framework */; };
+		0081A1811BACADD800E931F3 /* PTBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0081A17E1BACADD800E931F3 /* PTBaseVC.swift */; };
+		0081A1821BACADD800E931F3 /* PTMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0081A17F1BACADD800E931F3 /* PTMainVC.swift */; };
+		0081A1831BACADD800E931F3 /* PTParcelListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0081A1801BACADD800E931F3 /* PTParcelListVC.swift */; };
+		0081A1871BACAE4200E931F3 /* PTUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0081A1861BACAE4200E931F3 /* PTUtils.swift */; };
+		0081A18B1BAD009300E931F3 /* PTParcelListTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0081A18A1BAD009300E931F3 /* PTParcelListTVCell.swift */; };
+		00A530791BAC940E00EE021A /* Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A5306F1BAC940E00EE021A /* Arrow.png */; };
+		00A5307A1BAC940E00EE021A /* BannerBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A530701BAC940E00EE021A /* BannerBg.png */; };
+		00A5307B1BAC940E00EE021A /* BannerBg1.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A530711BAC940E00EE021A /* BannerBg1.png */; };
+		00A5307C1BAC940E00EE021A /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A530721BAC940E00EE021A /* bg.png */; };
+		00A5307D1BAC940E00EE021A /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A530731BAC940E00EE021A /* clock.png */; };
+		00A5307E1BAC940E00EE021A /* Find1.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A530741BAC940E00EE021A /* Find1.png */; };
+		00A5307F1BAC940E00EE021A /* Find2.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A530751BAC940E00EE021A /* Find2.png */; };
+		00A530801BAC940E00EE021A /* screen1.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A530761BAC940E00EE021A /* screen1.png */; };
+		00A530811BAC940E00EE021A /* screen2.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A530771BAC940E00EE021A /* screen2.png */; };
+		00A530821BAC940E00EE021A /* SearchIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A530781BAC940E00EE021A /* SearchIcon.png */; };
+		00A85E461BAA6F7D00D34AFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A85E451BAA6F7D00D34AFA /* AppDelegate.swift */; };
+		00A85E491BAA6F7D00D34AFA /* ParcelTracking.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00A85E471BAA6F7D00D34AFA /* ParcelTracking.xcdatamodeld */; };
+		00A85E4E1BAA6F7D00D34AFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A85E4C1BAA6F7D00D34AFA /* Main.storyboard */; };
+		00A85E501BAA6F7D00D34AFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A85E4F1BAA6F7D00D34AFA /* Images.xcassets */; };
+		00A85E531BAA6F7D00D34AFA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00A85E511BAA6F7D00D34AFA /* LaunchScreen.xib */; };
+		00A85E5F1BAA6F7D00D34AFA /* ParcelTrackingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A85E5E1BAA6F7D00D34AFA /* ParcelTrackingTests.swift */; };
+		00A861761BAA733700D34AFA /* PTAPIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A861751BAA733700D34AFA /* PTAPIHandler.swift */; };
+		00A861781BAAA0BE00D34AFA /* PTCacheHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A861771BAAA0BE00D34AFA /* PTCacheHandler.swift */; };
+		00A861941BAAA62A00D34AFA /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A861911BAAA62A00D34AFA /* SwiftyJSON.swift */; };
+		00A861A81BAAA69100D34AFA /* FromJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A861981BAAA69100D34AFA /* FromJSON.swift */; };
+		00A861A91BAAA69100D34AFA /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A861991BAAA69100D34AFA /* Mapper.swift */; };
+		00A861AA1BAAA69100D34AFA /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A8619A1BAAA69100D34AFA /* Operators.swift */; };
+		00A861AB1BAAA69100D34AFA /* ToJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A8619B1BAAA69100D34AFA /* ToJSON.swift */; };
+		00A861AC1BAAA69100D34AFA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00A8619C1BAAA69100D34AFA /* Info.plist */; };
+		00A861AD1BAAA69100D34AFA /* ObjectMapper.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 00A8619E1BAAA69100D34AFA /* ObjectMapper.podspec */; };
+		00A861AE1BAAA69100D34AFA /* CustomDateFormatTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A861A01BAAA69100D34AFA /* CustomDateFormatTransform.swift */; };
+		00A861AF1BAAA69100D34AFA /* DateFormaterTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A861A11BAAA69100D34AFA /* DateFormaterTransform.swift */; };
+		00A861B01BAAA69100D34AFA /* DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A861A21BAAA69100D34AFA /* DateTransform.swift */; };
+		00A861B11BAAA69100D34AFA /* EnumTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A861A31BAAA69100D34AFA /* EnumTransform.swift */; };
+		00A861B21BAAA69100D34AFA /* ISO8601DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A861A41BAAA69100D34AFA /* ISO8601DateTransform.swift */; };
+		00A861B31BAAA69100D34AFA /* TransformOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A861A51BAAA69100D34AFA /* TransformOf.swift */; };
+		00A861B41BAAA69100D34AFA /* TransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A861A61BAAA69100D34AFA /* TransformType.swift */; };
+		00A861B51BAAA69100D34AFA /* URLTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A861A71BAAA69100D34AFA /* URLTransform.swift */; };
+		00FB90EA1BB3F9EB00F4BA2D /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FB90DC1BB3F9EB00F4BA2D /* Alamofire.swift */; settings = {ASSET_TAGS = (); }; };
+		00FB90EB1BB3F9EB00F4BA2D /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FB90DD1BB3F9EB00F4BA2D /* Download.swift */; settings = {ASSET_TAGS = (); }; };
+		00FB90EC1BB3F9EB00F4BA2D /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FB90DE1BB3F9EB00F4BA2D /* Error.swift */; settings = {ASSET_TAGS = (); }; };
+		00FB90ED1BB3F9EB00F4BA2D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00FB90DF1BB3F9EB00F4BA2D /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		00FB90EE1BB3F9EB00F4BA2D /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FB90E01BB3F9EB00F4BA2D /* Manager.swift */; settings = {ASSET_TAGS = (); }; };
+		00FB90EF1BB3F9EB00F4BA2D /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FB90E11BB3F9EB00F4BA2D /* MultipartFormData.swift */; settings = {ASSET_TAGS = (); }; };
+		00FB90F01BB3F9EB00F4BA2D /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FB90E21BB3F9EB00F4BA2D /* ParameterEncoding.swift */; settings = {ASSET_TAGS = (); }; };
+		00FB90F11BB3F9EB00F4BA2D /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FB90E31BB3F9EB00F4BA2D /* Request.swift */; settings = {ASSET_TAGS = (); }; };
+		00FB90F21BB3F9EB00F4BA2D /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FB90E41BB3F9EB00F4BA2D /* ResponseSerialization.swift */; settings = {ASSET_TAGS = (); }; };
+		00FB90F31BB3F9EB00F4BA2D /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FB90E51BB3F9EB00F4BA2D /* Result.swift */; settings = {ASSET_TAGS = (); }; };
+		00FB90F41BB3F9EB00F4BA2D /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FB90E61BB3F9EB00F4BA2D /* ServerTrustPolicy.swift */; settings = {ASSET_TAGS = (); }; };
+		00FB90F51BB3F9EB00F4BA2D /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FB90E71BB3F9EB00F4BA2D /* Stream.swift */; settings = {ASSET_TAGS = (); }; };
+		00FB90F61BB3F9EB00F4BA2D /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FB90E81BB3F9EB00F4BA2D /* Upload.swift */; settings = {ASSET_TAGS = (); }; };
+		00FB90F71BB3F9EB00F4BA2D /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FB90E91BB3F9EB00F4BA2D /* Validation.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00A85E591BAA6F7D00D34AFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00A85E381BAA6F7D00D34AFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00A85E3F1BAA6F7D00D34AFA;
+			remoteInfo = ParcelTracking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0057E8941BAD272400DBB4D6 /* InputEntrySearch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InputEntrySearch.png; sourceTree = "<group>"; };
+		0057E8971BAD558800DBB4D6 /* PTTrackingNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PTTrackingNode.swift; sourceTree = "<group>"; };
+		0057E8991BAD563A00DBB4D6 /* PTModelBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PTModelBase.swift; sourceTree = "<group>"; };
+		0081A1781BACA8DB00E931F3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0081A17E1BACADD800E931F3 /* PTBaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PTBaseVC.swift; path = VCs/PTBaseVC.swift; sourceTree = "<group>"; };
+		0081A17F1BACADD800E931F3 /* PTMainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PTMainVC.swift; path = VCs/PTMainVC.swift; sourceTree = "<group>"; };
+		0081A1801BACADD800E931F3 /* PTParcelListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PTParcelListVC.swift; path = VCs/PTParcelListVC.swift; sourceTree = "<group>"; };
+		0081A1861BACAE4200E931F3 /* PTUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PTUtils.swift; sourceTree = "<group>"; };
+		0081A18A1BAD009300E931F3 /* PTParcelListTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PTParcelListTVCell.swift; path = VCs/PTParcelListTVCell.swift; sourceTree = "<group>"; };
+		00A5306F1BAC940E00EE021A /* Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arrow.png; sourceTree = "<group>"; };
+		00A530701BAC940E00EE021A /* BannerBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BannerBg.png; sourceTree = "<group>"; };
+		00A530711BAC940E00EE021A /* BannerBg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BannerBg1.png; sourceTree = "<group>"; };
+		00A530721BAC940E00EE021A /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		00A530731BAC940E00EE021A /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		00A530741BAC940E00EE021A /* Find1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Find1.png; sourceTree = "<group>"; };
+		00A530751BAC940E00EE021A /* Find2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Find2.png; sourceTree = "<group>"; };
+		00A530761BAC940E00EE021A /* screen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen1.png; sourceTree = "<group>"; };
+		00A530771BAC940E00EE021A /* screen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen2.png; sourceTree = "<group>"; };
+		00A530781BAC940E00EE021A /* SearchIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SearchIcon.png; sourceTree = "<group>"; };
+		00A85E401BAA6F7D00D34AFA /* ParcelTracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParcelTracking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A85E441BAA6F7D00D34AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00A85E451BAA6F7D00D34AFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00A85E481BAA6F7D00D34AFA /* ParcelTracking.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ParcelTracking.xcdatamodel; sourceTree = "<group>"; };
+		00A85E4D1BAA6F7D00D34AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00A85E4F1BAA6F7D00D34AFA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		00A85E521BAA6F7D00D34AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		00A85E581BAA6F7D00D34AFA /* ParcelTrackingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParcelTrackingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A85E5D1BAA6F7D00D34AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00A85E5E1BAA6F7D00D34AFA /* ParcelTrackingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParcelTrackingTests.swift; sourceTree = "<group>"; };
+		00A861751BAA733700D34AFA /* PTAPIHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PTAPIHandler.swift; sourceTree = "<group>"; };
+		00A861771BAAA0BE00D34AFA /* PTCacheHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PTCacheHandler.swift; sourceTree = "<group>"; };
+		00A861901BAAA62A00D34AFA /* SwiftyJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwiftyJSON.h; path = SwiftyJSON/Source/SwiftyJSON.h; sourceTree = "<group>"; };
+		00A861911BAAA62A00D34AFA /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = SwiftyJSON/Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		00A861981BAAA69100D34AFA /* FromJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FromJSON.swift; sourceTree = "<group>"; };
+		00A861991BAAA69100D34AFA /* Mapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
+		00A8619A1BAAA69100D34AFA /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		00A8619B1BAAA69100D34AFA /* ToJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToJSON.swift; sourceTree = "<group>"; };
+		00A8619C1BAAA69100D34AFA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00A8619D1BAAA69100D34AFA /* ObjectMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectMapper.h; sourceTree = "<group>"; };
+		00A8619E1BAAA69100D34AFA /* ObjectMapper.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ObjectMapper.podspec; sourceTree = "<group>"; };
+		00A861A01BAAA69100D34AFA /* CustomDateFormatTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDateFormatTransform.swift; sourceTree = "<group>"; };
+		00A861A11BAAA69100D34AFA /* DateFormaterTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormaterTransform.swift; sourceTree = "<group>"; };
+		00A861A21BAAA69100D34AFA /* DateTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTransform.swift; sourceTree = "<group>"; };
+		00A861A31BAAA69100D34AFA /* EnumTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumTransform.swift; sourceTree = "<group>"; };
+		00A861A41BAAA69100D34AFA /* ISO8601DateTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISO8601DateTransform.swift; sourceTree = "<group>"; };
+		00A861A51BAAA69100D34AFA /* TransformOf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformOf.swift; sourceTree = "<group>"; };
+		00A861A61BAAA69100D34AFA /* TransformType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformType.swift; sourceTree = "<group>"; };
+		00A861A71BAAA69100D34AFA /* URLTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLTransform.swift; sourceTree = "<group>"; };
+		00FB90DB1BB3F9EB00F4BA2D /* Alamofire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alamofire.h; sourceTree = "<group>"; };
+		00FB90DC1BB3F9EB00F4BA2D /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		00FB90DD1BB3F9EB00F4BA2D /* Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
+		00FB90DE1BB3F9EB00F4BA2D /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		00FB90DF1BB3F9EB00F4BA2D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00FB90E01BB3F9EB00F4BA2D /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		00FB90E11BB3F9EB00F4BA2D /* MultipartFormData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipartFormData.swift; sourceTree = "<group>"; };
+		00FB90E21BB3F9EB00F4BA2D /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		00FB90E31BB3F9EB00F4BA2D /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		00FB90E41BB3F9EB00F4BA2D /* ResponseSerialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseSerialization.swift; sourceTree = "<group>"; };
+		00FB90E51BB3F9EB00F4BA2D /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		00FB90E61BB3F9EB00F4BA2D /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		00FB90E71BB3F9EB00F4BA2D /* Stream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stream.swift; sourceTree = "<group>"; };
+		00FB90E81BB3F9EB00F4BA2D /* Upload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Upload.swift; sourceTree = "<group>"; };
+		00FB90E91BB3F9EB00F4BA2D /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00A85E3D1BAA6F7D00D34AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0081A1791BACA8DB00E931F3 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A85E551BAA6F7D00D34AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0057E8961BAD558800DBB4D6 /* PFModels */ = {
+			isa = PBXGroup;
+			children = (
+				0057E8991BAD563A00DBB4D6 /* PTModelBase.swift */,
+				0057E8971BAD558800DBB4D6 /* PTTrackingNode.swift */,
+			);
+			path = PFModels;
+			sourceTree = "<group>";
+		};
+		0081A1751BACA6BD00E931F3 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				0081A17E1BACADD800E931F3 /* PTBaseVC.swift */,
+				0081A1891BAD004C00E931F3 /* ParcelListVC */,
+				0081A1881BAD003B00E931F3 /* MainVC */,
+			);
+			name = VCs;
+			sourceTree = "<group>";
+		};
+		0081A17A1BACA8E200E931F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0081A1781BACA8DB00E931F3 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0081A1851BACAE4200E931F3 /* PTUtils */ = {
+			isa = PBXGroup;
+			children = (
+				0081A1861BACAE4200E931F3 /* PTUtils.swift */,
+			);
+			path = PTUtils;
+			sourceTree = "<group>";
+		};
+		0081A1881BAD003B00E931F3 /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				0081A17F1BACADD800E931F3 /* PTMainVC.swift */,
+			);
+			name = MainVC;
+			sourceTree = "<group>";
+		};
+		0081A1891BAD004C00E931F3 /* ParcelListVC */ = {
+			isa = PBXGroup;
+			children = (
+				0081A1801BACADD800E931F3 /* PTParcelListVC.swift */,
+				0081A18A1BAD009300E931F3 /* PTParcelListTVCell.swift */,
+			);
+			name = ParcelListVC;
+			sourceTree = "<group>";
+		};
+		00A5306E1BAC940E00EE021A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0057E8941BAD272400DBB4D6 /* InputEntrySearch.png */,
+				00A5306F1BAC940E00EE021A /* Arrow.png */,
+				00A530701BAC940E00EE021A /* BannerBg.png */,
+				00A530711BAC940E00EE021A /* BannerBg1.png */,
+				00A530721BAC940E00EE021A /* bg.png */,
+				00A530731BAC940E00EE021A /* clock.png */,
+				00A530741BAC940E00EE021A /* Find1.png */,
+				00A530751BAC940E00EE021A /* Find2.png */,
+				00A530761BAC940E00EE021A /* screen1.png */,
+				00A530771BAC940E00EE021A /* screen2.png */,
+				00A530781BAC940E00EE021A /* SearchIcon.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		00A85E371BAA6F7D00D34AFA = {
+			isa = PBXGroup;
+			children = (
+				0081A17A1BACA8E200E931F3 /* Frameworks */,
+				00A85E681BAA70D000D34AFA /* ExtLibs */,
+				00A85E421BAA6F7D00D34AFA /* ParcelTracking */,
+				00A85E5B1BAA6F7D00D34AFA /* ParcelTrackingTests */,
+				00A85E411BAA6F7D00D34AFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00A85E411BAA6F7D00D34AFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00A85E401BAA6F7D00D34AFA /* ParcelTracking.app */,
+				00A85E581BAA6F7D00D34AFA /* ParcelTrackingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00A85E421BAA6F7D00D34AFA /* ParcelTracking */ = {
+			isa = PBXGroup;
+			children = (
+				0057E8961BAD558800DBB4D6 /* PFModels */,
+				0081A1851BACAE4200E931F3 /* PTUtils */,
+				0081A1751BACA6BD00E931F3 /* VCs */,
+				00A861741BAA733700D34AFA /* PTHandler */,
+				00A85E451BAA6F7D00D34AFA /* AppDelegate.swift */,
+				00A85E4C1BAA6F7D00D34AFA /* Main.storyboard */,
+				00A85E4F1BAA6F7D00D34AFA /* Images.xcassets */,
+				00A85E511BAA6F7D00D34AFA /* LaunchScreen.xib */,
+				00A85E471BAA6F7D00D34AFA /* ParcelTracking.xcdatamodeld */,
+				00A85E431BAA6F7D00D34AFA /* Supporting Files */,
+				00A5306E1BAC940E00EE021A /* Resource */,
+			);
+			path = ParcelTracking;
+			sourceTree = "<group>";
+		};
+		00A85E431BAA6F7D00D34AFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00A85E441BAA6F7D00D34AFA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00A85E5B1BAA6F7D00D34AFA /* ParcelTrackingTests */ = {
+			isa = PBXGroup;
+			children = (
+				00A85E5E1BAA6F7D00D34AFA /* ParcelTrackingTests.swift */,
+				00A85E5C1BAA6F7D00D34AFA /* Supporting Files */,
+			);
+			path = ParcelTrackingTests;
+			sourceTree = "<group>";
+		};
+		00A85E5C1BAA6F7D00D34AFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00A85E5D1BAA6F7D00D34AFA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00A85E681BAA70D000D34AFA /* ExtLibs */ = {
+			isa = PBXGroup;
+			children = (
+				00A861951BAAA64300D34AFA /* ObjectMapper */,
+				00A8618D1BAAA5FB00D34AFA /* SwiftyJSON */,
+				00A861791BAAA5DF00D34AFA /* Alamofire */,
+			);
+			name = ExtLibs;
+			path = ParcelTracking/ExtLibs;
+			sourceTree = "<group>";
+		};
+		00A861741BAA733700D34AFA /* PTHandler */ = {
+			isa = PBXGroup;
+			children = (
+				00A861771BAAA0BE00D34AFA /* PTCacheHandler.swift */,
+				00A861751BAA733700D34AFA /* PTAPIHandler.swift */,
+			);
+			path = PTHandler;
+			sourceTree = "<group>";
+		};
+		00A861791BAAA5DF00D34AFA /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				00A861B61BAAA69B00D34AFA /* Source */,
+			);
+			name = Alamofire;
+			sourceTree = "<group>";
+		};
+		00A8618D1BAAA5FB00D34AFA /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				00A861901BAAA62A00D34AFA /* SwiftyJSON.h */,
+				00A861911BAAA62A00D34AFA /* SwiftyJSON.swift */,
+			);
+			name = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		00A861951BAAA64300D34AFA /* ObjectMapper */ = {
+			isa = PBXGroup;
+			children = (
+				00A861961BAAA69100D34AFA /* ObjectMapper */,
+			);
+			name = ObjectMapper;
+			sourceTree = "<group>";
+		};
+		00A861961BAAA69100D34AFA /* ObjectMapper */ = {
+			isa = PBXGroup;
+			children = (
+				00A861971BAAA69100D34AFA /* Core */,
+				00A8619C1BAAA69100D34AFA /* Info.plist */,
+				00A8619D1BAAA69100D34AFA /* ObjectMapper.h */,
+				00A8619E1BAAA69100D34AFA /* ObjectMapper.podspec */,
+				00A8619F1BAAA69100D34AFA /* Transforms */,
+			);
+			name = ObjectMapper;
+			path = ObjectMapper/ObjectMapper;
+			sourceTree = "<group>";
+		};
+		00A861971BAAA69100D34AFA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				00A861981BAAA69100D34AFA /* FromJSON.swift */,
+				00A861991BAAA69100D34AFA /* Mapper.swift */,
+				00A8619A1BAAA69100D34AFA /* Operators.swift */,
+				00A8619B1BAAA69100D34AFA /* ToJSON.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		00A8619F1BAAA69100D34AFA /* Transforms */ = {
+			isa = PBXGroup;
+			children = (
+				00A861A01BAAA69100D34AFA /* CustomDateFormatTransform.swift */,
+				00A861A11BAAA69100D34AFA /* DateFormaterTransform.swift */,
+				00A861A21BAAA69100D34AFA /* DateTransform.swift */,
+				00A861A31BAAA69100D34AFA /* EnumTransform.swift */,
+				00A861A41BAAA69100D34AFA /* ISO8601DateTransform.swift */,
+				00A861A51BAAA69100D34AFA /* TransformOf.swift */,
+				00A861A61BAAA69100D34AFA /* TransformType.swift */,
+				00A861A71BAAA69100D34AFA /* URLTransform.swift */,
+			);
+			path = Transforms;
+			sourceTree = "<group>";
+		};
+		00A861B61BAAA69B00D34AFA /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				00FB90DB1BB3F9EB00F4BA2D /* Alamofire.h */,
+				00FB90DC1BB3F9EB00F4BA2D /* Alamofire.swift */,
+				00FB90DD1BB3F9EB00F4BA2D /* Download.swift */,
+				00FB90DE1BB3F9EB00F4BA2D /* Error.swift */,
+				00FB90DF1BB3F9EB00F4BA2D /* Info.plist */,
+				00FB90E01BB3F9EB00F4BA2D /* Manager.swift */,
+				00FB90E11BB3F9EB00F4BA2D /* MultipartFormData.swift */,
+				00FB90E21BB3F9EB00F4BA2D /* ParameterEncoding.swift */,
+				00FB90E31BB3F9EB00F4BA2D /* Request.swift */,
+				00FB90E41BB3F9EB00F4BA2D /* ResponseSerialization.swift */,
+				00FB90E51BB3F9EB00F4BA2D /* Result.swift */,
+				00FB90E61BB3F9EB00F4BA2D /* ServerTrustPolicy.swift */,
+				00FB90E71BB3F9EB00F4BA2D /* Stream.swift */,
+				00FB90E81BB3F9EB00F4BA2D /* Upload.swift */,
+				00FB90E91BB3F9EB00F4BA2D /* Validation.swift */,
+			);
+			name = Source;
+			path = Alamofire/Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00A85E3F1BAA6F7D00D34AFA /* ParcelTracking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A85E621BAA6F7D00D34AFA /* Build configuration list for PBXNativeTarget "ParcelTracking" */;
+			buildPhases = (
+				00A85E3C1BAA6F7D00D34AFA /* Sources */,
+				00A85E3D1BAA6F7D00D34AFA /* Frameworks */,
+				00A85E3E1BAA6F7D00D34AFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParcelTracking;
+			productName = ParcelTracking;
+			productReference = 00A85E401BAA6F7D00D34AFA /* ParcelTracking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00A85E571BAA6F7D00D34AFA /* ParcelTrackingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A85E651BAA6F7D00D34AFA /* Build configuration list for PBXNativeTarget "ParcelTrackingTests" */;
+			buildPhases = (
+				00A85E541BAA6F7D00D34AFA /* Sources */,
+				00A85E551BAA6F7D00D34AFA /* Frameworks */,
+				00A85E561BAA6F7D00D34AFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00A85E5A1BAA6F7D00D34AFA /* PBXTargetDependency */,
+			);
+			name = ParcelTrackingTests;
+			productName = ParcelTrackingTests;
+			productReference = 00A85E581BAA6F7D00D34AFA /* ParcelTrackingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00A85E381BAA6F7D00D34AFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "com LLC";
+				TargetAttributes = {
+					00A85E3F1BAA6F7D00D34AFA = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					00A85E571BAA6F7D00D34AFA = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 00A85E3F1BAA6F7D00D34AFA;
+					};
+				};
+			};
+			buildConfigurationList = 00A85E3B1BAA6F7D00D34AFA /* Build configuration list for PBXProject "ParcelTracking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00A85E371BAA6F7D00D34AFA;
+			productRefGroup = 00A85E411BAA6F7D00D34AFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00A85E3F1BAA6F7D00D34AFA /* ParcelTracking */,
+				00A85E571BAA6F7D00D34AFA /* ParcelTrackingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00A85E3E1BAA6F7D00D34AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A530821BAC940E00EE021A /* SearchIcon.png in Resources */,
+				0057E8951BAD272400DBB4D6 /* InputEntrySearch.png in Resources */,
+				00A5307C1BAC940E00EE021A /* bg.png in Resources */,
+				00A530801BAC940E00EE021A /* screen1.png in Resources */,
+				00A861AC1BAAA69100D34AFA /* Info.plist in Resources */,
+				00A5307B1BAC940E00EE021A /* BannerBg1.png in Resources */,
+				00A530791BAC940E00EE021A /* Arrow.png in Resources */,
+				00A85E4E1BAA6F7D00D34AFA /* Main.storyboard in Resources */,
+				00A530811BAC940E00EE021A /* screen2.png in Resources */,
+				00A861AD1BAAA69100D34AFA /* ObjectMapper.podspec in Resources */,
+				00FB90ED1BB3F9EB00F4BA2D /* Info.plist in Resources */,
+				00A5307D1BAC940E00EE021A /* clock.png in Resources */,
+				00A85E531BAA6F7D00D34AFA /* LaunchScreen.xib in Resources */,
+				00A5307A1BAC940E00EE021A /* BannerBg.png in Resources */,
+				00A5307F1BAC940E00EE021A /* Find2.png in Resources */,
+				00A5307E1BAC940E00EE021A /* Find1.png in Resources */,
+				00A85E501BAA6F7D00D34AFA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A85E561BAA6F7D00D34AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00A85E3C1BAA6F7D00D34AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00FB90F61BB3F9EB00F4BA2D /* Upload.swift in Sources */,
+				0057E8981BAD558800DBB4D6 /* PTTrackingNode.swift in Sources */,
+				00A861B21BAAA69100D34AFA /* ISO8601DateTransform.swift in Sources */,
+				00A861AF1BAAA69100D34AFA /* DateFormaterTransform.swift in Sources */,
+				00FB90F21BB3F9EB00F4BA2D /* ResponseSerialization.swift in Sources */,
+				00A861B51BAAA69100D34AFA /* URLTransform.swift in Sources */,
+				0081A1821BACADD800E931F3 /* PTMainVC.swift in Sources */,
+				00A861941BAAA62A00D34AFA /* SwiftyJSON.swift in Sources */,
+				00FB90F11BB3F9EB00F4BA2D /* Request.swift in Sources */,
+				00FB90EF1BB3F9EB00F4BA2D /* MultipartFormData.swift in Sources */,
+				00A861AE1BAAA69100D34AFA /* CustomDateFormatTransform.swift in Sources */,
+				00FB90EC1BB3F9EB00F4BA2D /* Error.swift in Sources */,
+				00FB90F41BB3F9EB00F4BA2D /* ServerTrustPolicy.swift in Sources */,
+				00A85E461BAA6F7D00D34AFA /* AppDelegate.swift in Sources */,
+				00FB90F71BB3F9EB00F4BA2D /* Validation.swift in Sources */,
+				0081A18B1BAD009300E931F3 /* PTParcelListTVCell.swift in Sources */,
+				00A861B11BAAA69100D34AFA /* EnumTransform.swift in Sources */,
+				00FB90F01BB3F9EB00F4BA2D /* ParameterEncoding.swift in Sources */,
+				00FB90EE1BB3F9EB00F4BA2D /* Manager.swift in Sources */,
+				0081A1811BACADD800E931F3 /* PTBaseVC.swift in Sources */,
+				00FB90EA1BB3F9EB00F4BA2D /* Alamofire.swift in Sources */,
+				00A85E491BAA6F7D00D34AFA /* ParcelTracking.xcdatamodeld in Sources */,
+				00A861B01BAAA69100D34AFA /* DateTransform.swift in Sources */,
+				00A861A91BAAA69100D34AFA /* Mapper.swift in Sources */,
+				00FB90F31BB3F9EB00F4BA2D /* Result.swift in Sources */,
+				00A861781BAAA0BE00D34AFA /* PTCacheHandler.swift in Sources */,
+				00A861761BAA733700D34AFA /* PTAPIHandler.swift in Sources */,
+				00A861A81BAAA69100D34AFA /* FromJSON.swift in Sources */,
+				00A861B41BAAA69100D34AFA /* TransformType.swift in Sources */,
+				0081A1871BACAE4200E931F3 /* PTUtils.swift in Sources */,
+				00A861B31BAAA69100D34AFA /* TransformOf.swift in Sources */,
+				0057E89A1BAD563A00DBB4D6 /* PTModelBase.swift in Sources */,
+				00A861AB1BAAA69100D34AFA /* ToJSON.swift in Sources */,
+				00A861AA1BAAA69100D34AFA /* Operators.swift in Sources */,
+				0081A1831BACADD800E931F3 /* PTParcelListVC.swift in Sources */,
+				00FB90EB1BB3F9EB00F4BA2D /* Download.swift in Sources */,
+				00FB90F51BB3F9EB00F4BA2D /* Stream.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A85E541BAA6F7D00D34AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A85E5F1BAA6F7D00D34AFA /* ParcelTrackingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00A85E5A1BAA6F7D00D34AFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00A85E3F1BAA6F7D00D34AFA /* ParcelTracking */;
+			targetProxy = 00A85E591BAA6F7D00D34AFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00A85E4C1BAA6F7D00D34AFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00A85E4D1BAA6F7D00D34AFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00A85E511BAA6F7D00D34AFA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00A85E521BAA6F7D00D34AFA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00A85E601BAA6F7D00D34AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Natalie Higgins (JE6BNJ8XBP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Natalie Higgins (JE6BNJ8XBP)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "a9165479-45ac-4b30-8d43-d5df7e76ac7b";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00A85E611BAA6F7D00D34AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Natalie Higgins (JE6BNJ8XBP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Natalie Higgins (JE6BNJ8XBP)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "a9165479-45ac-4b30-8d43-d5df7e76ac7b";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00A85E631BAA6F7D00D34AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ParcelTracking/ExtLibs/Airbrake",
+					"$(PROJECT_DIR)/ParcelTracking/ExtLibs/Zendesk",
+				);
+				INFOPLIST_FILE = ParcelTracking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		00A85E641BAA6F7D00D34AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ParcelTracking/ExtLibs/Airbrake",
+					"$(PROJECT_DIR)/ParcelTracking/ExtLibs/Zendesk",
+				);
+				INFOPLIST_FILE = ParcelTracking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		00A85E661BAA6F7D00D34AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Natalie Higgins (JE6BNJ8XBP)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ParcelTrackingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a9165479-45ac-4b30-8d43-d5df7e76ac7b";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParcelTracking.app/ParcelTracking";
+			};
+			name = Debug;
+		};
+		00A85E671BAA6F7D00D34AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Natalie Higgins (JE6BNJ8XBP)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ParcelTrackingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a9165479-45ac-4b30-8d43-d5df7e76ac7b";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParcelTracking.app/ParcelTracking";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00A85E3B1BAA6F7D00D34AFA /* Build configuration list for PBXProject "ParcelTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A85E601BAA6F7D00D34AFA /* Debug */,
+				00A85E611BAA6F7D00D34AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00A85E621BAA6F7D00D34AFA /* Build configuration list for PBXNativeTarget "ParcelTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A85E631BAA6F7D00D34AFA /* Debug */,
+				00A85E641BAA6F7D00D34AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00A85E651BAA6F7D00D34AFA /* Build configuration list for PBXNativeTarget "ParcelTrackingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A85E661BAA6F7D00D34AFA /* Debug */,
+				00A85E671BAA6F7D00D34AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		00A85E471BAA6F7D00D34AFA /* ParcelTracking.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				00A85E481BAA6F7D00D34AFA /* ParcelTracking.xcdatamodel */,
+			);
+			currentVersion = 00A85E481BAA6F7D00D34AFA /* ParcelTracking.xcdatamodel */;
+			path = ParcelTracking.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 00A85E381BAA6F7D00D34AFA /* Project object */;
+}
